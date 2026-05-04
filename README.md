@@ -1,4 +1,4 @@
-# ABRP Link for BYD Seal (and other models, as long as they are supported by pyBYD)
+# ABRP Link for BYD Seal (and other models, as long as they are supported by pyBYD, in which case you need to adjusst the Entity names)
 
 A standalone Home Assistant integration that bridges your BYD Seal's telemetry (SOC, GPS, Odometer) to **A Better Routeplanner (ABRP)**.
 
