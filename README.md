@@ -5,6 +5,9 @@ A standalone Home Assistant integration that bridges your BYD Seal's telemetry (
 ## Why this exists?
 This integration provides the ABRP sync logic from the main BYD vehicle integration. This ensures your sync stays active even if the main vehicle integration is updated or changed, as it relies on standard Home Assistant entities.
 
+## Prerequisites
+This integration requires the [BYD Vehicle Integration](https://github.com/jkaberg/hass-byd-vehicle) to be installed and configured in Home Assistant to provide the necessary vehicle sensors.
+
 ## Features
 - **3-Way Sync Control:**
   - `Background`: Updates only when the car sends new data (saves battery/data).
