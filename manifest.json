@@ -1,0 +1,10 @@
+{
+  "domain": "abrp_link",
+  "name": "ABRP Link for BYD",
+  "documentation": "https://github.com/resk10/abrp_link",
+  "dependencies": [],
+  "codeowners": ["@resk10"],
+  "config_flow": true,
+  "iot_class": "cloud_push",
+  "version": "1.0.0"
+}
